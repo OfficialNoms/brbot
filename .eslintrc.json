@@ -1,0 +1,39 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "ignorePatterns": [
+        "*.d.ts"
+    ],
+    "rules": {
+        "comma-dangle": "off",
+        "eol-last": "warn",
+        "indent": "off",
+        "max-len": [
+            "error",
+            {
+                "code": 125
+            }
+        ],
+        "multiline-ternary": "off",
+        "no-tabs": [
+            "error",
+            {
+                "allowIndentationTabs": true
+            }
+        ],
+        "operator-linebreak": "off",
+        "space-before-function-paren": "off",
+        "new-cap": "off",
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}
